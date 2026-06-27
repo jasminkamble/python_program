@@ -1,0 +1,1 @@
+print("deleting the tuple:-",del tuple_a[])
