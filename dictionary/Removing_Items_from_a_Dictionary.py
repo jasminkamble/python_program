@@ -22,3 +22,8 @@ print("popitem(): This method removes and returns the last 'key: value' pair.")
 poped_item =dict_x.popitem()
 print("update dictoinary(remove last item):-",dict_x)
 print("poped_item:-",poped_item)
+print("\n")
+
+print("clear(): This method is used to remove all items from the dictionary.")
+dict_x.clear()   
+print("Update Dictionary (Removed all items):", dict_x)  
