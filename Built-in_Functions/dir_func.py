@@ -1,0 +1,3 @@
+att = dir()  
+
+print(att)
