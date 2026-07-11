@@ -5,3 +5,4 @@ is_odd =filter(lambda b:b%2!=0 ,n)
 
 print(list(is_even))
 print(list(is_odd))
+print(tuple(is_even))
