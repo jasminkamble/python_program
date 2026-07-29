@@ -1,4 +1,11 @@
+class CustomException(Exception):
+    def __init__(self, message):
+        self.message = message
+
+    def __str__(self):
+        return self.message
+
 try:
-    num = 10 / 0
-except BaseException as e:
-    print("Caught:", e)
+    raise CustomException("This is a custom exception.")
+except CustomException as e:
+    print("Exception caught:", e)
