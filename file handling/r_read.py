@@ -25,3 +25,4 @@ print(f.read())'''
 f.write("run it \a")
 f= open("palindrome.py")
 print(f.read())'''
+
